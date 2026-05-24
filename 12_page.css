@@ -1,0 +1,111 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    
+}
+.section_hero{
+    width: 414px;
+    height: 896px;
+    border-radius: 50px;
+    background-color: #F5F5F8;
+    margin: 15px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.img_back{
+    margin: 35px 0 0 20px;
+}
+.header_title{
+    margin: 35px 0 0 145px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section_hero h1{
+    margin: 35px 0 0 20px;
+    
+}
+.section_hero p{
+    margin: 35px 0 0 30px;
+    font-weight: 600;
+}
+.section_hero_addres{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 25px 25px 6px;
+}
+.section_hero_addres a{
+    text-decoration: none;
+    color: #ff4b3a;
+}
+.container_data_bank{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.container_data_card{
+    display: flex;
+    align-items: center;
+}
+.container_data_img{
+    padding-left: 16px;
+}
+.container_data span{
+    padding-left: 16px;
+}
+.container_data{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 22px 40px 22px;
+    padding: 25px 30px;
+    background-color: #fff;
+    border-radius: 35px;
+}
+.container_options{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 22px 40px 22px;
+    padding: 25px 30px;
+    background-color: #fff;
+    border-radius: 35px;
+}
+.container_options hr{
+    margin: 25px 0 40px 40px;
+}
+.container_options span{
+    padding-left: 18px;
+}
+.total_price{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 25px 25px 6px;
+}
+.total_price_p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.hero_footer{
+    display: flex;
+    justify-content: center;
+    
+}
+.hero_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #ff4b3a;
+    
+    width: 314px;
+    height: 70px;
+    border-radius: 30px;
+    border: 0;
+    font-size:17px ;
+    
+}
+.hero_footer a{
+    text-decoration: none;
+}

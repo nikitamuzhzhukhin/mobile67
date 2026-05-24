@@ -1,0 +1,120 @@
+
+.hero_section{
+    width: 414px;
+    height: 896px;
+    border-radius: 50px;
+    background-color: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 45px;
+}
+.logo_container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 414px;
+    height: 270px;
+}
+.container{
+    width: 414px ;
+    height: 382px;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+.img1{
+    width:150px; 
+    height:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 102px;
+}
+.container_footer span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    
+}
+.container_footer_span{
+    border-bottom: 3px solid #ff4b3a;
+}
+.hero_section_reg{
+    margin-top: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    line-height: 40%;
+    
+}
+.hero_section_reg_line{
+    height: 5px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.hero_section_reg p{
+    margin-left: 18px;
+}
+.hero_section_reg span{
+    color: #747474;
+}
+.hero_section_password{
+    margin-top: 38px;
+    line-height: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.hero_section_password p{
+    margin-left: 18px;
+}
+.hero_section_password span{
+    color: #747474;
+}
+.hero_section_reg_line{
+    padding-bottom: 42px;
+}
+.hero_section_forgot{
+    color: #ff4b3a;
+    font-size: 21px;
+}
+.hero_section_forgot a{
+    text-decoration: none;
+    color: #ff4b3a;
+}
+.hero_section_button{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    top: -25px;
+    margin-top: 170px;
+    position: relative;
+}
+.button_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff4b3a;
+    color: #fff;
+    margin-bottom:10px ;
+    width: 314px;
+    height: 70px;
+    border-radius: 30px;
+    border: 0;
+    font-size:17px ;
+}
+.hero_section_button a{
+    text-decoration: none;
+    color: #ff4b3a;
+}

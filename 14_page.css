@@ -1,0 +1,29 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.section_hero{
+    width: 414px;
+    height: 896px;
+    border-radius: 50px;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.img_back{
+    margin: 35px 0 0 20px;
+}
+.header_title{
+    margin: 35px 0 0 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+}

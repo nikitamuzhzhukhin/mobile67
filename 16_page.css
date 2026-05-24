@@ -1,0 +1,80 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    
+}
+.section_hero{
+    width: 414px;
+    height: 896px;
+    border-radius: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/back.jpg);
+    margin: 15px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 315px;
+    height: 322px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+    background-color: #fff;
+    border-radius: 16px;
+    margin: 250px 70px;
+}
+.container_header{
+    background-color: #dfdfdf;
+    border-radius: 12px 12px 0px 0;
+    width: 315px;
+}
+.container_header p{
+    margin-left: 40px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.container_hero{
+    margin: 0 10px 10px 40px;
+}
+.container_hero_top{
+    display: flex;
+    flex-direction: column;
+}
+.container_hero_down{
+    display: flex;
+    flex-direction: column;
+}
+.container_hero hr{
+    margin: 20px 0;
+}
+.container_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 8px;
+    width: 315px;
+}
+.button_cancel{
+    color: #000;
+    background-color: #fff;
+     width: 145px;
+    height: 55px;
+    border-radius: 38px;
+    border: 0;
+    font-size: 18px;
+}
+.button_proceed{
+    color: #fff;
+    font-weight: 200;
+    width: 145px;
+    height: 55px;
+    background-color: #ff4b3a;
+    border-radius: 38px;
+    border: 0;
+    font-size: 18px;
+}

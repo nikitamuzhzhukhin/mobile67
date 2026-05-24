@@ -1,0 +1,130 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F8;
+}
+
+.section_hero {
+    width: 414px;
+    height: 896px;
+    border-radius: 50px;
+    background-color: #F5F5F8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.img_back {
+    margin: 35px 0 0 20px;
+}
+
+.header_title {
+    margin: 35px 0 0 145px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info_container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: #ffffff;
+    border-radius: 34px;
+    border: #fff;
+    flex-wrap: wrap;
+    gap: 1, 2rm;
+    margin: 0px 5px;
+    margin-top: 8px;
+    margin-bottom: 26px;
+}
+
+.info_container_item p {
+    color: #5e5e5e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_profile {
+    margin: 40px 0 0 8px;
+}
+
+.info_container_item {
+    width: 315px;
+    height: 133px;
+    margin: 20px 0 5px 20px;
+}
+
+.info_container_item h1 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.container_payment_hero {
+    width: 315px;
+    height: 231px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.container_payment {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 10px;
+}
+
+.container_payment_hero hr {
+    height: 3px;
+    border: none;
+    border-top: 1px solid #999999;
+    margin: 1px 30px 1px 35px;
+    padding: 0;
+}
+
+.hero_footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.hero_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #ff4b3a;
+    margin-top: 190px;
+    width: 314px;
+    height: 70px;
+    border-radius: 30px;
+    border: 0;
+    font-size: 17px;
+
+}
+
+.hero_footer a {
+    text-decoration: none;
+}

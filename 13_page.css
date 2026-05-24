@@ -1,0 +1,199 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.section_hero {
+    width: 414px;
+    height: 896px;
+    background-color: #F5F5F8;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 30px 40px 30px;
+    position: relative;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header_title{
+    margin-right: 150px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.swipe_hint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    margin-bottom: 25px;
+}
+
+.cart_list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item_row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.item_img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.item_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item_info h3 {
+    font-size: 16px;
+    position: relative;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.item_info .price {
+    color: #FA4A0C;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.stepper {
+    background-color: #FA4A0C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.stepper span {
+    font-size: 13px;
+    font-weight: 600;
+    min-width: 10px;
+    text-align: center;
+}
+
+.stepper b {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.swipe_container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.swipe_container .card {
+    width: 230px;
+    flex-shrink: 0;
+}
+
+.swipe_container .item-info h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 130px;
+}
+
+.action_buttons {
+    display: flex;
+    position: relative;
+    left: -60;
+    gap: 10px;
+}
+
+.circle_btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_heart {
+    background-color: #DF2C2C;
+}
+
+.btn_orange {
+    background-color: #FA4A0C
+}
+
+.hero_footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero_footer_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #ff4b3a;
+    width: 314px;
+    height: 70px;
+    border-radius: 30px;
+    border: 0;
+    font-size: 17px;
+    margin-top: 300px;
+}
+
+.hero_footer a {
+    text-decoration: none;
+}

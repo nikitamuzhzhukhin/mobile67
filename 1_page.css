@@ -1,0 +1,70 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #ff4b3a;
+}
+.hero_section{
+    width: 414px;
+    height: 896px;
+    border-radius: 50px;
+    background-color: #ff4b3a;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 73px;
+    height: 73px;
+    background-color: #fff;
+    border-radius: 45px;
+    position: relative;
+    left: 45px;
+    top: 45px;
+}
+.img1{
+    width:55px; 
+    height:55px;
+}
+.hero_title{
+    font-size: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+    line-height: 83%;
+    
+}
+.hero_title p{
+    font-weight: 900;
+}
+.background{
+    display: flex;
+    background-image: url(img/Group\ 67\ \(1\).png);
+    height: 453px;
+    width: 415px;
+}
+.hero_footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    top: -25px;
+    position: relative;
+}
+.hero_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff4b3a;
+    margin-bottom:10px ;
+    width: 314px;
+    height: 70px;
+    border-radius: 30px;
+    border: 0;
+    font-size:17px ;
+    
+}
+.hero_footer a{
+    text-decoration: none;
+}
