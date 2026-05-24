@@ -8,6 +8,7 @@
     height: 896px;
     border-radius: 50px;
     background-color: #ff4b3a;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .logo{
     display: flex;
@@ -27,7 +28,6 @@
 }
 .hero_title{
     font-size: 75px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
     display: flex;
     justify-content: center;
